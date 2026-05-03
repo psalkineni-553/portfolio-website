@@ -32,13 +32,12 @@ export default function Home() {
           </p>
 
           <h1 className="text-4xl font-bold tracking-tight text-slate-950 md:text-6xl">
-            Building reliable data solutions that turn raw data into business insight.
+            Turning raw data into reliable insights through dashboards, validation, and pipeline thinking.
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            I am a master&apos;s student in Information Technology and Management focused on
-            data analytics, data quality, dashboards, validation, and growing into data
-            engineering through real-world project work.
+            I&apos;m a master&apos;s student in Information Technology and Management focused on
+            data analytics, reporting accuracy, data quality, and building a strong foundation for data engineering.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
