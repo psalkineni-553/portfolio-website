@@ -70,10 +70,12 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <h2 className="text-3xl font-bold tracking-tight text-slate-950">About</h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-            I focus on data work that connects technical accuracy with business usefulness.
-            My current direction is Data Analyst first, Data Engineer second, and Data
-            Scientist as a future growth path. I am building projects around dashboards,
-            reporting logic, data validation, pipelines, and AI-assisted workflows.
+              I am a master&apos;s student in Information Technology and Management at Florida
+              Atlantic University, focused on building practical skills across data analytics
+              and data engineering. My experience includes validating reporting outputs,
+              checking data quality, documenting issues, and supporting analytics workflows.
+              I am currently strengthening my portfolio through projects involving dashboards,
+              data pipelines, business insights, and AI-assisted data validation.
           </p>
         </div>
       </section>
