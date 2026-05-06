@@ -129,10 +129,10 @@ export default function Home() {
             {[
               {
                 title: "AI-Powered Business Insights Dashboard",
-                status: "Planned / Flagship Project",
-                tools: "Python, SQL, Power BI, business KPIs",
+                status: "Planned / Flagship Portfolio Project",
+                tools: "Python, SQL, Power BI, data cleaning, KPI analysis",
                 description:
-                  "A planned flagship analytics project focused on transforming raw business data into dashboards, validated metrics, and decision-ready insights.",
+                  "A planned analytics project designed to show an end-to-end workflow: collecting or preparing business data, cleaning it with Python/SQL, validating key metrics, and building Power BI dashboards that turn raw data into decision-ready insights.",
               },
               {
                 title: "Carbon Credit Trading Platform",
