@@ -112,8 +112,8 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-            {/* Projects */}
-            <section id="projects" className="border-y border-slate-200 bg-white">
+      {/* Projects */}
+      <section id="projects" className="border-y border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="max-w-3xl">
             <h2 className="text-3xl font-bold tracking-tight text-slate-950">
@@ -177,28 +177,79 @@ export default function Home() {
       </section>
 
       {/* Experience */}
-      <section id="experience" className="mx-auto max-w-6xl px-6 py-20">
-        <h2 className="text-3xl font-bold tracking-tight text-slate-950">Experience</h2>
+            {/* Experience */}
+            <section id="experience" className="mx-auto max-w-6xl px-6 py-20">
+        <div className="max-w-3xl">
+          <h2 className="text-3xl font-bold tracking-tight text-slate-950">
+            Experience
+          </h2>
+          <p className="mt-4 leading-7 text-slate-600">
+            Professional and externship experience focused on data validation,
+            reporting accuracy, AI-assisted workflows, and stakeholder-ready insights.
+          </p>
+        </div>
 
         <div className="mt-8 space-y-6">
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h3 className="text-xl font-semibold text-slate-950">
-              Tata Consultancy Services — Assistant System Engineer
-            </h3>
-            <p className="mt-3 leading-7 text-slate-600">
-              Worked on enterprise reporting support, data validation, dashboard logic,
-              issue documentation, and cross-functional communication.
-            </p>
+            <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
+              <div>
+                <h3 className="text-xl font-semibold text-slate-950">
+                  Tata Consultancy Services
+                </h3>
+                <p className="mt-1 font-medium text-slate-600">
+                  Assistant System Engineer
+                </p>
+              </div>
+              <p className="text-sm font-medium text-slate-500">
+                Jun 2024 – Dec 2024
+              </p>
+            </div>
+
+            <ul className="mt-5 list-disc space-y-3 pl-5 leading-7 text-slate-600">
+              <li>
+                Validated enterprise reporting outputs to support accuracy,
+                consistency, and reliable operational reporting.
+              </li>
+              <li>
+                Built Excel-based dashboards and tracking models while checking
+                formulas, calculations, and reporting logic.
+              </li>
+              <li>
+                Documented data quality issues, workflow steps, and validation
+                checks for cross-functional teams.
+              </li>
+            </ul>
           </div>
 
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h3 className="text-xl font-semibold text-slate-950">
-              Outamation — AI-Powered Document Insights & Data Extraction Externship
-            </h3>
-            <p className="mt-3 leading-7 text-slate-600">
-              Currently working with AI-powered document workflows, structured data extraction,
-              automated output validation, reconciliation checks, and business-facing reports.
-            </p>
+            <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
+              <div>
+                <h3 className="text-xl font-semibold text-slate-950">
+                  Outamation
+                </h3>
+                <p className="mt-1 font-medium text-slate-600">
+                  Advanced AI-Powered Document Insights & Data Extraction Externship
+                </p>
+              </div>
+              <p className="text-sm font-medium text-slate-500">
+                Dec 2025 – Present
+              </p>
+            </div>
+
+            <ul className="mt-5 list-disc space-y-3 pl-5 leading-7 text-slate-600">
+              <li>
+                Working with AI-powered document workflows that convert
+                unstructured documents into structured datasets.
+              </li>
+              <li>
+                Validating automated extraction outputs through reconciliation,
+                logic testing, and quality checks.
+              </li>
+              <li>
+                Creating stakeholder-ready summaries, dashboards, and reports to
+                support business-facing decisions.
+              </li>
+            </ul>
           </div>
         </div>
       </section>
