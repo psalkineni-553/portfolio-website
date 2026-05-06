@@ -135,11 +135,12 @@ export default function Home() {
                   "A planned flagship analytics project focused on transforming raw business data into dashboards, validated metrics, and decision-ready insights.",
               },
               {
-                title: "Carbon Credit Tracking System",
-                status: "Completed",
-                tools: "Django, HTMX, Tailwind, data workflows",
+                title: "Carbon Credit Trading Platform",
+                status: "Team Project / Completed Core Features",
+                tools: "Django, Python, HTMX, Tailwind CSS, SQLite, Google Maps API",
                 description:
-                  "A full-stack sustainability tracking system focused on organizing carbon-credit related data, supporting reporting workflows, and validating data movement across the application.",
+                  "Built a sustainability-focused web platform where employees log eco-friendly commuting activity, employers track accumulated carbon credits, and organizations can participate in a carbon credit marketplace with role-based dashboards and approval workflows.",
+                link: "https://github.com/Sai-12354/Carbon-Credits",
               },
               {
                 title: "Sentiment and Feedback Analysis using ML",
@@ -166,9 +167,19 @@ export default function Home() {
                   {project.description}
                 </p>
                 <div className="mt-6">
-                  <span className="text-sm font-semibold text-blue-700">
-                    Case study coming soon →
-                  </span>
+                  {project.link ? (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      className="text-sm font-semibold text-blue-700 hover:text-blue-800"
+                    >
+                      View GitHub →
+                    </a>
+                  ) : (
+                    <span className="text-sm font-semibold text-blue-700">
+                      Case study coming soon →
+                    </span>
+                  )}
                 </div>
               </div>
             ))}
@@ -177,8 +188,8 @@ export default function Home() {
       </section>
 
       {/* Experience */}
-            {/* Experience */}
-            <section id="experience" className="mx-auto max-w-6xl px-6 py-20">
+      {/* Experience */}
+      <section id="experience" className="mx-auto max-w-6xl px-6 py-20">
         <div className="max-w-3xl">
           <h2 className="text-3xl font-bold tracking-tight text-slate-950">
             Experience
@@ -255,8 +266,8 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-            {/* Contact */}
-            <section id="contact" className="bg-slate-950 text-white">
+      {/* Contact */}
+      <section id="contact" className="bg-slate-950 text-white">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="max-w-3xl">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-blue-300">
