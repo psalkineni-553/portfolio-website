@@ -18,7 +18,7 @@ export default function Home() {
               href="#contact"
               className="rounded-full bg-blue-700 px-4 py-2 text-white hover:bg-blue-800"
             >
-              View Resume
+              Resume Coming Soon
             </a>
           </div>
         </div>
