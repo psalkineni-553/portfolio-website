@@ -112,35 +112,64 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id="projects" className="border-y border-slate-200 bg-white">
+            {/* Projects */}
+            <section id="projects" className="border-y border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <h2 className="text-3xl font-bold tracking-tight text-slate-950">Featured Projects</h2>
+          <div className="max-w-3xl">
+            <h2 className="text-3xl font-bold tracking-tight text-slate-950">
+              Featured Projects
+            </h2>
+            <p className="mt-4 leading-7 text-slate-600">
+              A growing collection of data-focused projects showing analytics,
+              validation, reporting, and pipeline thinking.
+            </p>
+          </div>
 
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {[
               {
                 title: "AI-Powered Business Insights Dashboard",
                 status: "Planned / Flagship Project",
+                tools: "Python, SQL, Power BI, business KPIs",
                 description:
-                  "A future analytics project focused on turning raw business data into dashboards, metrics, and decision-ready insights.",
+                  "A planned flagship analytics project focused on transforming raw business data into dashboards, validated metrics, and decision-ready insights.",
               },
               {
                 title: "Carbon Credit Tracking System",
                 status: "Completed",
+                tools: "Django, HTMX, Tailwind, data workflows",
                 description:
-                  "A full-stack web application focused on sustainability data, tracking workflows, and reporting-oriented data flows.",
+                  "A full-stack sustainability tracking system focused on organizing carbon-credit related data, supporting reporting workflows, and validating data movement across the application.",
               },
               {
                 title: "Sentiment and Feedback Analysis using ML",
                 status: "Academic Project",
+                tools: "Python, NLP, machine learning basics, reporting",
                 description:
-                  "A machine learning project focused on analyzing feedback text and generating insights from sentiment classification.",
+                  "An academic machine learning project focused on analyzing feedback text, classifying sentiment, and translating model outputs into business insights.",
               },
             ].map((project) => (
-              <div key={project.title} className="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
-                <p className="text-sm font-semibold text-blue-700">{project.status}</p>
-                <h3 className="mt-3 text-xl font-semibold text-slate-950">{project.title}</h3>
-                <p className="mt-4 leading-7 text-slate-600">{project.description}</p>
+              <div
+                key={project.title}
+                className="flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm"
+              >
+                <p className="text-sm font-semibold text-blue-700">
+                  {project.status}
+                </p>
+                <h3 className="mt-3 text-xl font-semibold text-slate-950">
+                  {project.title}
+                </h3>
+                <p className="mt-3 text-sm font-medium text-slate-500">
+                  {project.tools}
+                </p>
+                <p className="mt-4 leading-7 text-slate-600">
+                  {project.description}
+                </p>
+                <div className="mt-6">
+                  <span className="text-sm font-semibold text-blue-700">
+                    Case study coming soon →
+                  </span>
+                </div>
               </div>
             ))}
           </div>
