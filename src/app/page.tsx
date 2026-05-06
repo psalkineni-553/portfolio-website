@@ -255,22 +255,42 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="bg-slate-950 text-white">
+            {/* Contact */}
+            <section id="contact" className="bg-slate-950 text-white">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <h2 className="text-3xl font-bold tracking-tight">Contact</h2>
-          <p className="mt-4 max-w-2xl leading-7 text-slate-300">
-            I am open to data analytics, analytics engineering, and junior data engineering
-            opportunities where I can work on reliable data, dashboards, pipelines, and insights.
-          </p>
+          <div className="max-w-3xl">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-blue-300">
+              Let&apos;s Connect
+            </p>
+            <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+              Open to data analytics, analytics engineering, and junior data engineering opportunities.
+            </h2>
+            <p className="mt-5 leading-7 text-slate-300">
+              I am interested in roles where I can work with SQL, Python, dashboards,
+              data quality, reporting workflows, and data pipeline foundations to help
+              teams make better decisions from reliable data.
+            </p>
+          </div>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="mailto:psalkineni@gmail.com" className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-200">
+            <a
+              href="mailto:psalkineni@gmail.com"
+              className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-200"
+            >
               Email Me
             </a>
-            <a href="https://github.com/psalkineni-553" target="_blank" className="rounded-full border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:border-white">
+            <a
+              href="https://github.com/psalkineni-553"
+              target="_blank"
+              className="rounded-full border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:border-white"
+            >
               GitHub
             </a>
-            <a href="http://linkedin.com/in/pavan-salkineni-2b4481227" target="_blank" className="rounded-full border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:border-white">
+            <a
+              href="http://linkedin.com/in/pavan-salkineni-2b4481227"
+              target="_blank"
+              className="rounded-full border border-slate-600 px-6 py-3 text-sm font-semibold text-white hover:border-white"
+            >
               LinkedIn
             </a>
           </div>
