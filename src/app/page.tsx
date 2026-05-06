@@ -70,12 +70,12 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <h2 className="text-3xl font-bold tracking-tight text-slate-950">About</h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-              I am a master&apos;s student in Information Technology and Management at Florida
-              Atlantic University, focused on building practical skills across data analytics
-              and data engineering. My experience includes validating reporting outputs,
-              checking data quality, documenting issues, and supporting analytics workflows.
-              I am currently strengthening my portfolio through projects involving dashboards,
-              data pipelines, business insights, and AI-assisted data validation.
+            I am a master&apos;s student in Information Technology and Management at Florida
+            Atlantic University, focused on building practical skills across data analytics
+            and data engineering. My experience includes validating reporting outputs,
+            checking data quality, documenting issues, and supporting analytics workflows.
+            I am currently strengthening my portfolio through projects involving dashboards,
+            data pipelines, business insights, and AI-assisted data validation.
           </p>
         </div>
       </section>
@@ -87,20 +87,20 @@ export default function Home() {
         <div className="mt-8 grid gap-6 md:grid-cols-2">
           {[
             {
-              title: "Data Analytics",
-              items: "SQL, Excel, Power BI, reporting logic, dashboard validation",
+              title: "Data Analytics & Reporting",
+              items: "SQL, Excel, Power BI, KPI tracking, reporting logic, dashboard validation",
+            },
+            {
+              title: "Data Quality & Validation",
+              items: "Data reconciliation, output verification, anomaly detection, logic testing, issue documentation",
             },
             {
               title: "Data Engineering Foundations",
-              items: "Python, data cleaning, data pipelines, data quality checks, BigQuery learning path",
+              items: "Python, data cleaning, pipeline thinking, structured datasets, BigQuery learning path",
             },
             {
-              title: "AI & Automation",
-              items: "AI-assisted workflows, document extraction validation, automated output verification",
-            },
-            {
-              title: "Programming & Web",
-              items: "Python, basic HTML/CSS, Django exposure, GitHub",
+              title: "AI-Assisted Workflows",
+              items: "Document extraction validation, automated output review, AI-generated data checks, business-facing summaries",
             },
           ].map((skill) => (
             <div key={skill.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
