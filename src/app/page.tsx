@@ -128,11 +128,12 @@ export default function Home() {
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {[
               {
-                title: "AI-Powered Business Insights Dashboard",
-                status: "Planned / Flagship Portfolio Project",
-                tools: "Python, SQL, Power BI, data cleaning, KPI analysis",
+                title: "Banking Customer Churn & Retention Analytics Dashboard",
+                status: "Flagship Data Analytics Project / In Progress",
+                tools: "Python, pandas, churn analysis, segmentation, CSV outputs, Power BI planned",
                 description:
-                  "A planned analytics project designed to show an end-to-end workflow: collecting or preparing business data, cleaning it with Python/SQL, validating key metrics, and building Power BI dashboards that turn raw data into decision-ready insights.",
+                  "Analyzed 10,000 banking customers to identify churn patterns across geography, age, product usage, activity status, and balance groups. Built dashboard-ready outputs and documented business recommendations for customer retention strategy.",
+                link: "https://github.com/psalkineni-553/banking-churn-dashboard",
               },
               {
                 title: "Carbon Credit Trading Platform",
