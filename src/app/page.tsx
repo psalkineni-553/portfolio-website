@@ -129,10 +129,10 @@ export default function Home() {
             {[
               {
                 title: "Banking Customer Churn & Retention Analytics Dashboard",
-                status: "Flagship Data Analytics Project / In Progress",
-                tools: "Python, pandas, churn analysis, segmentation, CSV outputs, Power BI planned",
+                status: "Flagship Data Analytics Project / Dashboard Completed",
+                tools: "Python, pandas, SQL, Power BI, churn analysis, customer segmentation",
                 description:
-                  "Analyzed 10,000 banking customers to identify churn patterns across geography, age, product usage, activity status, and balance groups. Built dashboard-ready outputs and documented business recommendations for customer retention strategy.",
+                  "Analyzed 10,000 banking customers to identify churn risk patterns across geography, age, product usage, activity status, and balance groups. Created SQL analysis queries, dashboard-ready outputs, a Power BI dashboard preview, and business recommendations for customer retention strategy.",
                 link: "https://github.com/psalkineni-553/banking-churn-dashboard",
               },
               {
